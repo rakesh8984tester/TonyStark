@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="verification.VerifyTitle"/>
+      <class name="test.TestTask"/>
+      <class name="multipleTestmethod.multipleDependancyMethod"/>
+      <class name="multiplePomClassAndTestMethod.PrioANDInvocation"/>
+      <class name="multipleTestmethod.MultipleMethodExample"/>
+      <class name="multiplePomClassAndTestMethod.InvocationCount"/>
+      <class name="test.TestLogIn"/>
+      <class name="test.TestName"/>
+      <class name="verification.SoftAssertDemo"/>
+      <class name="test.TestWork"/>
+      <class name="test.TestProject"/>
+      <class name="multipleTestmethod.MultipleMethod"/>
+      <class name="multipleTestmethod.DependsOnMethod"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
